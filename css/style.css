@@ -1,0 +1,632 @@
+/* Atoms */
+/* Screen size break for responsive */
+img {
+  max-width: 100%;
+  height: auto; }
+
+body {
+  margin: 0px;
+  padding: 0px; }
+
+ul {
+  margin: 0px;
+  padding: 0; }
+  ul li {
+    margin: 0px;
+    padding: 0; }
+
+/* typography */
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Lato", sans-serif;
+  color: #252525;
+  box-sizing: border-box; }
+
+h1 {
+  font-size: 61px;
+  font-weight: 900;
+  font-family: "Lato", sans-serif;
+  color: #252525; }
+
+h2 {
+  font-size: 41px;
+  font-weight: 800;
+  line-height: 1.17;
+  font-family: "Lato", sans-serif;
+  color: #252525; }
+
+h3 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1.25;
+  font-family: "Lato", sans-serif;
+  color: #252525; }
+
+h4 {
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Lato", sans-serif;
+  color: #252525;
+  line-height: 1.31; }
+
+h5 {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  color: #252525;
+  color: #282f34; }
+
+h6 {
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  color: #252525;
+  line-height: 1.41; }
+
+p {
+  font-size: 17px;
+  font-family: "Lato", sans-serif;
+  color: #252525;
+  line-height: 1.65;
+  font-weight: 400; }
+
+/* Buttons style */
+.btn-lg-black, .btn-md-black, .btn-lg-yello, .btn-md-yello, .btn-border-grey {
+  display: block;
+  flex-wrap: wrap;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  border: none;
+  font-weight: 900;
+  line-height: 44px;
+  text-align: center;
+  text-decoration: none; }
+
+.btn-lg-black {
+  color: #fff;
+  background: #000;
+  font-size: 23px; }
+
+.btn-md-black {
+  color: #fff;
+  background: #000;
+  font-size: 18px; }
+
+.btn-lg-yello {
+  color: #000000;
+  background: #f9c72c;
+  font-size: 23px;
+  border: 1px solid #e2b52a; }
+
+.btn-md-yello {
+  color: #000000;
+  background: #f9c72c;
+  font-size: 18px;
+  border: 1px solid #e2b52a; }
+
+.btn-border-grey {
+  color: #ffffff;
+  font-size: 50px;
+  border: 1px solid #989898; }
+
+/* Header css */
+.top-header {
+  background: #252525;
+  padding: 50px 0px;
+  -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.75);
+  position: relative;
+  z-index: 999; }
+
+.container-header {
+  padding: 0 30px;
+  max-width: 1720px;
+  margin: 0px auto; }
+
+.site_logo {
+  display: inline-block;
+  margin: 0 100px 0 0; }
+
+.header-nav-main {
+  display: inline-block;
+  vertical-align: bottom; }
+  .header-nav-main li {
+    display: inline-block;
+    list-style: none; }
+  .header-nav-main a {
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: 300;
+    margin: 0 25px; }
+  .header-nav-main a:hover, .header-nav-main li.active a {
+    color: #f7db77;
+    text-decoration: underline; }
+
+.rb {
+  position: absolute;
+  right: 15px;
+  top: 14px;
+  background: none;
+  border: none;
+  padding: 0;
+  display: none;
+  width: 22px;
+  height: 22px;
+  cursor: pointer; }
+
+.rb span {
+  width: 20px;
+  background: #fff;
+  height: 2px;
+  display: inline-block;
+  margin: 2px 0px;
+  position: relative;
+  transition: 0.3s all ease-in-out; }
+
+.rb span::before {
+  width: 100%;
+  background: inherit;
+  height: 2px;
+  content: "";
+  display: block;
+  margin: 0px;
+  position: absolute;
+  left: 0;
+  top: -7px;
+  transition: 0.2s all ease-in-out;
+  -webkit-transition: 0.2s all ease-in-out; }
+
+.rb span::after {
+  width: 100%;
+  background: inherit;
+  height: 2px;
+  content: "";
+  display: block;
+  margin: 0px;
+  position: absolute;
+  left: 0;
+  bottom: -7px;
+  transition: 0.2s all ease-in-out;
+  -webkit-transition: 0.2s all ease-in-out; }
+
+/* side bar css */
+.side-bar {
+  position: absolute;
+  left: 0;
+  max-width: 539px;
+  background: #eaeaea;
+  width: 100%;
+  padding: 40px;
+  top: 0;
+  bottom: 0; }
+
+.submission-table h4 {
+  text-align: center;
+  margin: 0 0 20px 0; }
+
+table {
+  width: 100%;
+  max-width: 418px;
+  margin: 0px auto;
+  border-collapse: collapse; }
+  table thead tr {
+    background: #2c2735; }
+    table thead tr th {
+      color: #fff;
+      padding: 0 10px;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: 700;
+      height: 38px; }
+  table tbody tr td {
+    font-size: 14px;
+    font-weight: 400;
+    height: 40px;
+    border: 1px solid #bfbdc0;
+    background: #fff;
+    padding: 0 10px;
+    text-align: center; }
+    table tbody tr td a {
+      color: #ec791c;
+      text-decoration: none; }
+    table tbody tr td a:hover {
+      color: #da5c00; }
+
+.get-started {
+  margin: 50px 0; }
+
+.get-started h4 {
+  margin: 0 0 20px 100px; }
+
+.get-started-list {
+  margin: 10px 0 0; }
+
+.started-list-number {
+  float: left;
+  font-size: 57px;
+  color: #949494;
+  font-weight: 800;
+  line-height: 57px;
+  font-family: "Poppins", sans-serif;
+  margin: 0 30px 0 0;
+  min-width: 70px; }
+
+.started-list-content {
+  overflow: hidden; }
+
+.started-list-content h5 {
+  font-weight: 400;
+  margin: 0 0 5px; }
+
+.started-list-content p {
+  line-height: 28px;
+  font-size: 16px; }
+
+/* content area css */
+.inner-wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 1024px; }
+
+.content-area {
+  margin-left: 539px;
+  padding: 80px 80px 160px; }
+
+.token-container {
+  float: right;
+  text-align: right; }
+
+.welcome-user-name {
+  font-size: 30px;
+  font-weight: 800;
+  color: #000000; }
+  .welcome-user-name span {
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit; }
+
+.your-token {
+  font-size: 41px;
+  font-weight: 900;
+  color: #000000;
+  padding: 10px 25px 0 0; }
+  .your-token .tken-number {
+    color: #ffae00;
+    font-size: inherit;
+    font-weight: inherit; }
+
+.create-job {
+  background: #f9c72c;
+  padding: 30px;
+  text-align: center;
+  min-height: 590px;
+  position: relative;
+  margin: 0px 0 0;
+  height: 100%;
+  width: 100%; }
+  .create-job figure {
+    margin: 40px 0; }
+  .create-job h1 {
+    line-height: 1; }
+  .create-job h4 {
+    font-size: 28px;
+    font-weight: 800;
+    margin: 0 0 35px 0; }
+  .create-job p {
+    font-size: 19px;
+    text-align: left;
+    line-height: 30px;
+    margin: 0 0 40px 0; }
+  .create-job .btn-lg-black {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    right: 30px; }
+
+.grid-row {
+  clear: both;
+  margin: 0 -15px; }
+
+.grid-row.equal-height {
+  display: flex; }
+
+.col-3 {
+  padding: 0 15px;
+  float: left;
+  width: 33.3%;
+  display: flex; }
+
+.my-title {
+  float: left;
+  margin: 50px 0 50px 0; }
+
+.jobs-listing {
+  margin: 0px 0 0;
+  height: 100%;
+  background: #eaeaea;
+  position: relative;
+  width: 100%;
+  padding-bottom: 100px; }
+  .jobs-listing h4 {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0 0 34px 0; }
+  .jobs-listing figure img {
+    width: 100%;
+    height: auto; }
+
+.job-listing-inner {
+  padding: 5px 17px 0px; }
+  .job-listing-inner p {
+    font-size: 18px;
+    line-height: 24px; }
+    .job-listing-inner p strong {
+      font-weight: 800; }
+  .job-listing-inner .btn-group {
+    position: absolute;
+    display: flex;
+    bottom: 30px;
+    left: 13px;
+    right: 13px; }
+    .job-listing-inner .btn-group .btn-md-black, .job-listing-inner .btn-group .btn-md-yello {
+      margin: 0 5px;
+      width: 50%; }
+
+.grid-wrapper {
+  clear: both;
+  margin: 30px 0 0px 0; }
+
+.site-footer {
+  background: url("../images/footer-bg.jpg") no-repeat;
+  padding: 90px 0; }
+
+.footer-form {
+  margin: 0px auto;
+  max-width: 860px; }
+
+.footer-form-title h2 {
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  padding: 100px 0 0px; }
+
+.footer-form-title h2:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 116px;
+  height: 2px;
+  background: #c2c2c2;
+  margin: 0px auto;
+  top: 0; }
+
+.footer-form-title h2:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 8px;
+  width: 116px;
+  height: 2px;
+  background: #c2c2c2;
+  margin: 0px auto; }
+
+.footer-form-inner {
+  margin: 50px 0 0; }
+
+.form-half {
+  display: flex;
+  margin: 0 -20px; }
+
+.form-half .form-group {
+  padding: 0 20px; }
+
+.form-group {
+  width: 100%;
+  margin: 0 0 30px 0;
+  position: relative; }
+
+.form-group label {
+  position: absolute;
+  bottom: 7px;
+  margin: 0;
+  font-size: 30px;
+  left: 0;
+  right: 0;
+  margin: 0px auto;
+  text-align: center;
+  transition: 0.3s all;
+  -webkit-transition: 0.3s all;
+  color: #fff; }
+
+.form-group.filled-focus label, .form-group.filled label {
+  bottom: 100%;
+  font-size: 14px; }
+
+.form-half .form-group label {
+  left: 20px; }
+
+.form-group input {
+  width: 100%;
+  background: none;
+  border-width: 0 0 2px 0;
+  border-color: rgba(255, 225, 255, 0.5);
+  height: 50px;
+  font-size: 30px;
+  color: #fff;
+  position: relative;
+  z-index: 9;
+  text-align: center; }
+
+.form-group textarea {
+  width: 100%;
+  background: none;
+  border-width: 0 0 2px 0;
+  border-color: rgba(255, 225, 255, 0.5);
+  height: 130px;
+  font-size: 30px;
+  color: #fff;
+  position: relative;
+  z-index: 9;
+  text-align: center; }
+
+.form-group.submit-btn {
+  text-align: right;
+  margin: 0px; }
+
+.form-group input[type="submit"] {
+  width: auto;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 0 25px;
+  text-transform: uppercase;
+  letter-spacing: -1.5px;
+  font-weight: 800;
+  cursor: pointer;
+  font-size: 26px;
+  height: 44px; }
+
+.form-group input[type="submit"]:hover, .form-group input[type="submit"]:focus {
+  background: #cc8c0c; }
+
+@media screen and (max-width: 1600px) {
+  .container-header {
+    max-width: 1170px;
+    padding: 0; }
+
+  .site_logo {
+    margin: 0 50px 0 0;
+    max-width: 240px; }
+
+  .header-nav-main a {
+    margin: 0 10px;
+    font-size: 22px; }
+
+  .side-bar {
+    max-width: 380px;
+    padding: 40px 30px; }
+
+  .content-area {
+    margin-left: 380px;
+    padding: 80px 30px 160px; }
+
+  .create-job h1 {
+    font-size: 55px; }
+
+  .create-job {
+    padding: 30px 20px; }
+    .create-job .btn-lg-black {
+      left: 20px;
+      right: 20px; }
+
+  .job-listing-inner .btn-group .btn-md-black, .job-listing-inner .btn-group .btn-md-yello {
+    font-size: 16px; } }
+@media screen and (max-width: 1300px) {
+  .jobs-listing {
+    padding-bottom: 160px; }
+
+  .job-listing-inner .btn-group {
+    display: block; }
+
+  .job-listing-inner .btn-group .btn-md-black, .job-listing-inner .btn-group .btn-md-yello {
+    width: 100%;
+    margin: 10px 0 0px 0; } }
+@media screen and (max-width: 1200px) {
+  h2, .your-token {
+    font-size: 34px; }
+
+  h5 {
+    font-size: 18px; }
+
+  .content-area {
+    padding: 80px 20px 100px; }
+
+  .grid-row {
+    margin: 0 -10px; }
+
+  .col-3 {
+    padding: 0 10px; }
+
+  .create-job h1 {
+    font-size: 45px; }
+
+  h4, .create-job h4, .welcome-user-name, .jobs-listing h4, .footer-form-title h2, .form-group input, .form-group label, .form-group textarea {
+    font-size: 22px; }
+
+  .job-listing-inner p, .create-job p {
+    font-size: 17px; } }
+@media screen and (max-width: 991px) {
+  .rb {
+    display: block;
+    right: 20px;
+    top: 40px; }
+
+  .header-nav-main .main-nav {
+    float: none;
+    display: none;
+    padding: 0 0 0px 0;
+    /* margin: 0px; */
+    width: 100%;
+    clear: both;
+    margin: 12px 0 20px; }
+
+  .site_logo {
+    margin: 0 20px 0 0;
+    max-width: 170px; }
+
+  .top-header {
+    padding: 15px 20px; }
+
+  .header-nav-main {
+    display: block;
+    vertical-align: bottom; }
+
+  .header-nav-main .main-nav {
+    margin: 20px 0 3px;
+    border-top: 1px solid #333;
+    padding: 15px 0 0; }
+
+  .header-nav-main li {
+    display: block; }
+
+  .header-nav-main a {
+    margin: 5px 0;
+    font-size: 22px;
+    display: inline-block; }
+
+  .grid-wrapper {
+    margin: 0px; }
+
+  .grid-row.equal-height {
+    display: block; }
+
+  .col-3 {
+    display: block;
+    float: none;
+    width: auto; }
+
+  .create-job {
+    margin: 20px 0 0px; }
+
+  .jobs-listing {
+    margin: 20px 0 0px;
+    padding: 0 0 30px 0; }
+
+  .job-listing-inner .btn-group {
+    position: static;
+    margin: 30px 0 0 0; }
+
+  .token-container {
+    float: none; }
+
+  .my-title {
+    float: none;
+    margin: 30px 0 20px 0; } }
+
+/*# sourceMappingURL=style.css.map */
