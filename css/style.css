@@ -141,7 +141,8 @@ p {
     text-decoration: none;
     font-weight: 300;
     margin: 0 25px; }
-  .header-nav-main a:hover, .header-nav-main li.active a {
+  .header-nav-main a:hover,
+  .header-nav-main li.active a {
     color: #f7db77;
     text-decoration: underline; }
 
@@ -374,7 +375,8 @@ table {
     bottom: 30px;
     left: 13px;
     right: 13px; }
-    .job-listing-inner .btn-group .btn-md-black, .job-listing-inner .btn-group .btn-md-yello {
+    .job-listing-inner .btn-group .btn-md-black,
+    .job-listing-inner .btn-group .btn-md-yello {
       margin: 0 5px;
       width: 50%; }
 
@@ -449,7 +451,8 @@ table {
   -webkit-transition: 0.3s all;
   color: #fff; }
 
-.form-group.filled-focus label, .form-group.filled label {
+.form-group.filled-focus label,
+.form-group.filled label {
   bottom: 100%;
   font-size: 14px; }
 
@@ -495,7 +498,8 @@ table {
   font-size: 26px;
   height: 44px; }
 
-.form-group input[type="submit"]:hover, .form-group input[type="submit"]:focus {
+.form-group input[type="submit"]:hover,
+.form-group input[type="submit"]:focus {
   background: #cc8c0c; }
 
 @media screen and (max-width: 1600px) {
@@ -528,7 +532,8 @@ table {
       left: 20px;
       right: 20px; }
 
-  .job-listing-inner .btn-group .btn-md-black, .job-listing-inner .btn-group .btn-md-yello {
+  .job-listing-inner .btn-group .btn-md-black,
+  .job-listing-inner .btn-group .btn-md-yello {
     font-size: 16px; } }
 @media screen and (max-width: 1300px) {
   .jobs-listing {
@@ -537,11 +542,13 @@ table {
   .job-listing-inner .btn-group {
     display: block; }
 
-  .job-listing-inner .btn-group .btn-md-black, .job-listing-inner .btn-group .btn-md-yello {
+  .job-listing-inner .btn-group .btn-md-black,
+  .job-listing-inner .btn-group .btn-md-yello {
     width: 100%;
     margin: 10px 0 0px 0; } }
 @media screen and (max-width: 1200px) {
-  h2, .your-token {
+  h2,
+  .your-token {
     font-size: 34px; }
 
   h5 {
@@ -559,11 +566,22 @@ table {
   .create-job h1 {
     font-size: 45px; }
 
-  h4, .create-job h4, .welcome-user-name, .jobs-listing h4, .footer-form-title h2, .form-group input, .form-group label, .form-group textarea {
+  h4,
+  .create-job h4,
+  .welcome-user-name,
+  .jobs-listing h4,
+  .footer-form-title h2,
+  .form-group input,
+  .form-group label,
+  .form-group textarea {
     font-size: 22px; }
 
-  .job-listing-inner p, .create-job p {
-    font-size: 17px; } }
+  .job-listing-inner p,
+  .create-job p {
+    font-size: 17px; }
+
+  .create-job h1 {
+    font-size: 39px; } }
 @media screen and (max-width: 991px) {
   .rb {
     display: block;
