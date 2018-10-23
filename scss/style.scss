@@ -269,10 +269,11 @@ h4 {
 }
 
 }
-
+.submission-table-overflow table {
+max-width: 418px;
+}
 table {
 	width: 100%;
-	max-width: 418px;
 	margin: 0px auto;
 	border-collapse: collapse;
 
@@ -520,7 +521,7 @@ p {
 	margin:30px 0 0px 0;
 }
 
-.site-footer{background:url('../images/footer-bg.jpg') no-repeat; padding:90px 0;}
+.site-footer{background:url('../images/footer-bg.jpg') no-repeat; padding:90px 0; background-size: cover;}
 .footer-form {
 	margin: 0px auto;
 	max-width: 860px;
@@ -738,4 +739,23 @@ display:block;
 .job-listing-inner .btn-group{position:static; margin: 30px 0 0 0;}
 .token-container{float: none;}
 .my-title{float:none; margin: 30px 0 20px 0;}
+.footer-form{}
+}
+@media screen and (max-width: $break-sm) {
+.side-bar {
+	max-width: inherit;
+	padding: 40px 30px;
+	position: static;
+}
+.footer-form{padding:0 20px;}
+.footer-form-inner {margin: 50px 0px 0;}
+.submission-table-overflow table{max-width: inherit;}
+.form-half .form-group{padding:0;}
+.form-half{margin: 0; display:block;}
+.form-group.submit-btn {text-align: center;	margin: 0px;}
+.col-3{padding: 0;}
+.content-area {padding: 50px 20px 100px; margin: 0;}
+.side-bar{padding: 40px 20px;}
+.your-token{padding: 10px 0px 0 0;}
+.header-nav-main a{font-size: 20px;}
 }
